@@ -24,7 +24,7 @@ if [ "$NIGHTLY" = "true" ]; then
     ZJU_RELEASE_PATH="download/nightly"
 fi
 
-curl -LO "https://github.com/Mythologyli/zju-connect/releases/$ZJU_RELEASE_PATH/zju-connect-darwin-$ZJU_ARCH.zip"
+curl -LO "https://github.com/conrad621/zju-connect/releases/$ZJU_RELEASE_PATH/zju-connect-darwin-$ZJU_ARCH.zip"
 unzip -o "zju-connect-darwin-$ZJU_ARCH.zip"
 rm "zju-connect-darwin-$ZJU_ARCH.zip"
 

@@ -23,7 +23,7 @@ Copy-Item -Path "../$BuildDir/Release/$TargetName.exe" -Destination .
 
 # Download and extract zju-connect
 $ZjuReleasePath = if ($Nightly -eq "true") { "download/nightly" } else { "latest/download" }
-$ZjuUrl = "https://github.com/Mythologyli/zju-connect/releases/$ZjuReleasePath/zju-connect-windows-$Architecture.zip"
+$ZjuUrl = "https://github.com/conrad621/zju-connect/releases/$ZjuReleasePath/zju-connect-windows-$Architecture.zip"
 $ZjuZipPath = "zju-connect-windows-$Architecture.zip"
 Invoke-WebRequest -Uri $ZjuUrl -OutFile $ZjuZipPath
 Expand-Archive -Path $ZjuZipPath -DestinationPath . -Force

@@ -36,8 +36,8 @@ void PresentationHelpers::showAboutDialog(QWidget *parent)
         "<br><br>zju-connect" +
         "<br>ZJU RVPN 客户端的 Go 语言实现" +
         "<br>作者：<a href='https://myth.cx'>Myth</a>" +
-        "<br>项目主页：<a href='https://github.com/Mythologyli/zju-connect'>"
-        "https://github.com/Mythologyli/zju-connect</a>" +
+        "<br>项目主页：<a href='https://github.com/conrad621/zju-connect'>"
+        "https://github.com/conrad621/zju-connect</a>" +
         "<br><br>EasierConnect" +
         "<br>EasyConnect 客户端的开源实现" +
         "<br>作者：<a href='https://github.com/lyc8503'>lyc8503</a>" +
